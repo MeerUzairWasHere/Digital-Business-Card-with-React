@@ -9,7 +9,7 @@ export default function Header() {
             <div className="container about">
             <h1 className="about-name">Mir Uzair</h1>
             <p className="about-profession">Frontend Developer</p>
-                     <small className="about-website">   <a href="https://mir-uzair-personal-portfolio.netlify.app/" target="_blank">miruzair.website</a></small>
+                     <small className="about-website">   <a href="https://mir-uzair-personal-portfolio.netlify.app/" target="_blank">miruzair.portfolio</a></small>
         </div>
         <div className="container about-buttons">
             <a href="mailto:businessmail.uzair@gmail.com"><button  className="email-button">
