@@ -12,7 +12,7 @@ export default function Header() {
                      <small className="about-website">   <a href="https://mir-uzair-personal-portfolio.netlify.app/" target="_blank">miruzair.website</a></small>
         </div>
         <div className="container about-buttons">
-            <a href="mailto:example@gmail.com"><button  className="email-button">
+            <a href="mailto:businessmail.uzair@gmail.com"><button  className="email-button">
                 <img src="./email-logo.svg" alt="email-logo" />Email</button></a>
             <a  href="https://www.linkedin.com/in/meer-uzair-1b682b176/" target="_blank" ><button className="linkedIn-button">
                 <img src="./linkedIn-logo.svg" alt="linkedIn-logo" />LinkedIn</button></a>
