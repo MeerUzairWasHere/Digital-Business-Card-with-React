@@ -4,7 +4,7 @@ export default function Header() {
     return (<>
         <header>
             <div className="container img">
-                <img src="./Profile-Picture.svg" alt="profilePicture" />
+                <img src="./Profile-Picture.svg" className="profileImg" alt="profilePicture" />
             </div>
             <div className="container about">
             <h1 className="about-name">Mir Uzair</h1>

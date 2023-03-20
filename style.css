@@ -5,10 +5,7 @@
   box-sizing: border-box;
 }
 
-.img {
-  background-color: #1a1b21;
-  width: 100%;
-}
+
 
 body {
   margin: 0;
@@ -16,6 +13,10 @@ body {
   font-family: "Inter", sans-serif;
   color: #ffffff;
   background: #1a1b21;
+}
+
+.profileImg{
+  width: 100%;
 }
 
 h1,
@@ -122,4 +123,5 @@ button {
     width: 317px;
     margin: 0 auto;
   }
+
 }
