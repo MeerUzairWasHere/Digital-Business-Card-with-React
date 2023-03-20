@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-
-
 body {
+  text-align: center;
+
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
@@ -15,7 +15,7 @@ body {
   background: #1a1b21;
 }
 
-.profileImg{
+.profileImg {
   width: 100%;
 }
 
@@ -89,19 +89,6 @@ button {
   color: #ffffff;
 }
 
-.title {
-  margin-bottom: 5px;
-  font-size: 16px;
-  line-height: 150%;
-}
-
-.content {
-  font-size: 10.24px;
-  line-height: 150%;
-  width: 247px;
-  color: #dcdcdc;
-}
-
 .footer {
   background: #161619;
   border-radius: 0px 0px 10px 10px;
@@ -117,6 +104,16 @@ button {
 .intrestes-description {
   padding: 27px 36px 24px;
 }
+.title {
+  font-size: 16px;
+}
+
+.content {
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 10px;
+  color: #dcdcdc;
+}
 
 @media screen and (min-width: 480px) {
   .container {
@@ -124,4 +121,23 @@ button {
     margin: 0 auto;
   }
 
+  body {
+    text-align: start;
+  }
+  .about-buttons {
+    margin-top: 10px;
+  }
+
+  .title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .content {
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 247px;
+    color: #dcdcdc;
+  }
 }
